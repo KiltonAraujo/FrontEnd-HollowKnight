@@ -1,0 +1,425 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #02000F;
+    font-family: serif;
+}
+section{
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+p{line-height: 1.5em;}
+
+nav{
+  background: #000000;
+  display: flex;
+  justify-content: space-between;
+}
+
+header{
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+header ol{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav li:nth-child(2){
+    font-size: 25px;
+    padding: 0 0 0 1.8em;
+}
+
+header nav li:nth-child(3){
+    padding: 0 0 0 1.3em;
+    font-size: 25px;
+}
+
+header nav img{
+    align-items: center;
+}
+
+.hollow{
+    height: 4.5em;
+    width: 4.5em;
+    padding: 0.5em;
+}
+
+.map{
+    height: 3em;
+    width: 3em;
+}
+.fim{
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    margin: 0 1%;
+}
+
+.fim form{
+    background-color: rgb(75, 75, 75);
+    border-radius: 20px;
+    padding: .3em;
+    width: 18em;
+}
+.fim form input{
+    border: 0;
+    margin: 0;
+    color:white;
+    vertical-align: middle;
+    background-color: rgb(75, 75, 75);
+}
+.fim form fieldset{
+  border: 0;
+  
+}
+
+.fim label{
+    border: 0;
+    margin: 0;
+}
+
+.pesq{
+    border: none;
+    outline: none;
+    width: 19em;
+}
+.lupa{
+    height: 1.3em;
+    width: 1.3em;
+}
+
+.team{
+  justify-content: end;
+  align-items: center;
+  width: 3em;
+  height: 2.3em;
+  padding:.3em;
+}
+main{
+  background: #030019;
+  color: white;
+  font-size: 20px;
+  padding-top: 4.65em;
+  
+}
+
+.logo img{
+  height: 8em;
+  width: 50em;
+  padding: 1em 0 1em 0;
+  
+}
+
+.logo{
+  margin: 0;
+  background-image: url("imagens/fundo2.png");
+  background-size: cover;
+  text-align: center;
+  padding: 1.6em 0;
+  width: 100%;
+}
+.inicio{
+  padding-bottom: 1em;
+  text-align: center;
+  margin: 0;
+}
+
+.inicio img{
+  width: 25em;
+  height: 15em;
+  padding-bottom: 2em;
+}
+
+.inicio h2{
+  font-size: 25px;
+  padding-bottom: 2em;
+  padding-top: 1em;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+.inicio p{
+  text-align:unset;
+  padding: 1em 0;
+  line-height: 1.5em;
+  margin-left: 8em;
+  margin-right: 8em;
+  
+}
+
+.definicao{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4em 0;
+}
+
+.definicao img{
+  padding-left: 3em;
+  width: 15em;
+  height: 19em;
+}
+
+/*.logos img{
+  width: 50%;
+  height: 50%;
+  filter: saturate(0.7);
+}
+
+.logos figure{
+  padding-bottom: 4em;
+  text-align: center;
+}*/
+
+
+
+.imgjogo{
+  display: flex;
+  justify-content: center;
+}
+.imgjogo img{
+  padding: 4em 2em;
+  width: 26em;
+  height: 15em;
+}
+
+.sobre p{text-align: center;}
+
+.sobre{
+  text-align: center;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+
+.sobre h2{
+  padding: 0 0 1em 0;
+}
+
+.silksong{
+  text-align: center;
+}
+.silksong img{
+  width: 28em;
+  height: 17em;
+  padding: 4em 0 0 0;
+}
+footer{
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+.footer-ini{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style: none;
+  padding-left: .3em;
+}
+
+.team2{
+  width: 4em;
+  height: 3em;
+}
+
+.steam{
+  width: 7em;
+  height: 3em;
+  padding:1em .7em;
+}
+
+footer p{
+  text-align: center;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+}
+.footer-fim{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-right: .3em;
+}
+
+.footer-fim img{
+  padding:1em 1em;
+}
+.facebook{
+  width: 1.3em;
+  height: 1.3em;
+}
+.youtube{
+  width: 2em;
+  height: 1.3em;
+}
+.twitter{
+  width: 1.3em;
+  height: 1.3em;
+}
+
+/*historia*/
+
+.historia{
+  text-align: center;
+}
+
+.historia .cima{
+  height: 3em;
+  width: 18em;
+}
+
+.historia .map{
+  height: 3em;
+  width: 3em;
+  padding: 1em 0;
+}
+
+.historia h1{
+  padding: 1em 0;
+}
+
+.aviso{
+  text-align: center;
+  padding: 2em 0;
+}
+
+.H-ini{
+  text-align: center;
+}
+
+.H-ini img{
+    padding: 4em 0em;
+    width: 26em;
+    height: 15em;
+}
+
+.rei{
+    text-align: center;
+}
+
+.rei img{
+    padding: 3em;
+}
+
+.text2a2{
+    text-align: center;
+}
+
+.text2a2 img{
+    width: 24em;
+    height: 14em;
+    padding:4em 0;
+}
+
+.H-fim{
+    text-align: center;
+    padding: 0 0 4em 0;
+}
+.bank{
+    text-align: center;
+}
+
+.bank img{
+    filter:saturate(60%);
+    width: 12em;
+    height: 10em;
+}
+
+
+/*                  Criadores                */
+
+
+.body-criadores{
+    background-color: #DC293E;
+}
+
+.main-criadores{
+    background-color: #DC293E;
+    display: grid;
+    grid-template-areas:
+        ". team-c ."
+        "cri cri cri"
+        "ari wil dav";
+}
+
+.team-c{
+    text-align: center;
+    grid-area: team-c;
+}
+
+.team-c img{
+    width: 18em;
+    height: 14em;
+    padding: 2em 0 4em 0;
+}
+
+.cria-sec{
+    
+    padding: 2em;
+}
+
+.cri{
+    text-align: center;
+    grid-area: cri;
+}
+.ari{grid-area: ari;
+    text-align: center;
+    padding: 1.5em;}
+
+.ari img{
+    height: 10em;
+    width: 10em;
+    padding-top:2em;
+}
+
+.wil{grid-area: wil;
+    text-align: center;
+    padding: 1.8em;}
+
+.wil img{
+    height: 10em;
+    width: 10em;
+    padding-top:2em;
+}
+
+.dav{grid-area: dav;
+    padding: 1.5em;
+    text-align: center;}
+
+.dav img{
+    height: 10em;
+    width: 10em;
+    padding-top:2em;
+}
+
+.wil h2{
+    padding: 1em 0;
+}
+
+.ari h2{
+    padding: 1em 0;
+}
+
+.dav h2{
+    padding: 1em 0;
+}
