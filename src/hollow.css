@@ -1,425 +1,335 @@
 *{
-    padding: 0;
-    margin: 0;
-}
-
-body{
-    background-color: #02000F;
-    font-family: serif;
-}
-section{
-  margin-left: 8em;
-  margin-right: 8em;
-}
-
-p{line-height: 1.5em;}
-
-nav{
-  background: #000000;
-  display: flex;
-  justify-content: space-between;
-}
-
-header{
-  position: absolute;
-  width: 100%;
-  top: 0;
-}
-
-header ol{
-    display: flex;
-    list-style: none;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-
-header nav a{
-    color: white;
-    text-decoration: none;
-}
-
-header nav li:nth-child(2){
-    font-size: 25px;
-    padding: 0 0 0 1.8em;
-}
-
-header nav li:nth-child(3){
-    padding: 0 0 0 1.3em;
-    font-size: 25px;
-}
-
-header nav img{
-    align-items: center;
-}
-
-.hollow{
-    height: 4.5em;
-    width: 4.5em;
-    padding: 0.5em;
-}
-
-.map{
-    height: 3em;
-    width: 3em;
-}
-.fim{
-    justify-content: end;
-    display: flex;
-    align-items: center;
-    margin: 0 1%;
-}
-
-.fim form{
-    background-color: rgb(75, 75, 75);
-    border-radius: 20px;
-    padding: .3em;
-    width: 18em;
-}
-.fim form input{
-    border: 0;
-    margin: 0;
-    color:white;
-    vertical-align: middle;
-    background-color: rgb(75, 75, 75);
-}
-.fim form fieldset{
-  border: 0;
-  
-}
-
-.fim label{
-    border: 0;
-    margin: 0;
-}
-
-.pesq{
-    border: none;
-    outline: none;
-    width: 19em;
-}
-.lupa{
-    height: 1.3em;
-    width: 1.3em;
-}
-
-.team{
-  justify-content: end;
-  align-items: center;
-  width: 3em;
-  height: 2.3em;
-  padding:.3em;
-}
-main{
-  background: #030019;
-  color: white;
-  font-size: 20px;
-  padding-top: 4.65em;
-  
-}
-
-.logo img{
-  height: 8em;
-  width: 50em;
-  padding: 1em 0 1em 0;
-  
-}
-
-.logo{
-  margin: 0;
-  background-image: url("imagens/fundo2.png");
-  background-size: cover;
-  text-align: center;
-  padding: 1.6em 0;
-  width: 100%;
-}
-.inicio{
-  padding-bottom: 1em;
-  text-align: center;
+  padding: 0;
   margin: 0;
 }
 
-.inicio img{
-  width: 25em;
-  height: 15em;
-  padding-bottom: 2em;
+body {
+  background-color: #02000F;
+
 }
 
-.inicio h2{
-  font-size: 25px;
-  padding-bottom: 2em;
-  padding-top: 1em;
-  margin-left: 8em;
-  margin-right: 8em;
-}
-.inicio p{
-  text-align:unset;
-  padding: 1em 0;
-  line-height: 1.5em;
-  margin-left: 8em;
-  margin-right: 8em;
-  
-}
-
-.definicao{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4em 0;
-}
-
-.definicao img{
-  padding-left: 3em;
-  width: 15em;
-  height: 19em;
-}
-
-/*.logos img{
-  width: 50%;
-  height: 50%;
-  filter: saturate(0.7);
-}
-
-.logos figure{
-  padding-bottom: 4em;
-  text-align: center;
-}*/
-
-
-
-.imgjogo{
-  display: flex;
-  justify-content: center;
-}
-.imgjogo img{
-  padding: 4em 2em;
-  width: 26em;
-  height: 15em;
-}
-
-.sobre p{text-align: center;}
-
-.sobre{
-  text-align: center;
-  margin-left: 8em;
-  margin-right: 8em;
-}
-
-.sobre h2{
-  padding: 0 0 1em 0;
-}
-
-.silksong{
-  text-align: center;
-}
-.silksong img{
-  width: 28em;
-  height: 17em;
-  padding: 4em 0 0 0;
-}
-footer{
-  background-color: #000000;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em;
-}
-
-.footer-ini{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  list-style: none;
-  padding-left: .3em;
-}
-
-.team2{
-  width: 4em;
-  height: 3em;
-}
-
-.steam{
-  width: 7em;
-  height: 3em;
-  padding:1em .7em;
-}
-
-footer p{
-  text-align: center;
-}
-
-footer a{
-  color: white;
+a{
   text-decoration: none;
 }
-.footer-fim{
+
+
+
+header{
+  padding: 0 10em;
+  background: black;
+  box-shadow: 0px 3px #ababab;
+  max-width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+}
+
+header nav .logos{
+  display: flex;
+  align-items: center;
+}
+
+header nav .logos .logo-site{
+  padding-right: 15px;
+}
+
+header nav .pesquisa{
+  background-color: white;
+  align-items: center;
+  border-radius: 40px;
+  margin-left: 15px;
+}
+
+header nav .pesquisa form{
+  display: flex;
+  align-items: center;
+  border-radius: 40px;
+}
+
+
+
+header nav .pesquisa form #pesq_input:focus{
+  outline: 0;
+  width: 11em;
+  
+}
+
+header nav .pesquisa:hover #pesq_input{
+  width: 11em;
+  transition-duration: 0.3s; 
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+  
+}
+
+header nav .pesquisa:not(:hover) #pesq_input{
+  width: 2px;
+  transition-duration: 0.3s; 
+  transition-timing-function: ease;
+  animation-iteration-count: infinite;
+
+}
+header nav .pesquisa form #pesq_input{
+  border: none;
+  background: none;
+  width: 1px;
+  color: black;
+  transform-origin: left;
+  
+  
+}
+
+header nav .pesquisa form input[type=image]{
+  padding: 10px;
+}
+
+
+header nav{
+  display: flex;
+  align-items: center;
+}
+
+header nav ol{
+  color: white;
+  display: flex;
   list-style: none;
-  padding-right: .3em;
+  align-items: center;
 }
 
-.footer-fim img{
-  padding:1em 1em;
-}
-.facebook{
-  width: 1.3em;
-  height: 1.3em;
-}
-.youtube{
-  width: 2em;
-  height: 1.3em;
-}
-.twitter{
-  width: 1.3em;
-  height: 1.3em;
+header nav ol li{
+  color: #FFF;
+  font-family: IM FELL French Canon SC;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 1.2em;
 }
 
-/*historia*/
+header nav ol li a{
+  color: #FFF;
+  font-family: IM FELL French Canon SC;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header nav ol li .vetor-seta{
+  width: 12px;
+  height: 10px;
+}
 
-.historia{
+/* DESTAQUE DE PAGINA */
+
+.destaque {
+  position: relative;
+  width: 100%;
+  height: 480px;
+}
+
+.destaque .destaque-fixo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.destaque .destaque-fixo span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 23px;
+  color: white;
+  font-family: IM FELL French Canon SC;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   text-align: center;
 }
 
-.historia .cima{
-  height: 3em;
-  width: 18em;
+section{
+  padding: 0 10em;
 }
 
-.historia .map{
-  height: 3em;
-  width: 3em;
-  padding: 1em 0;
+.teamcharry-logo-branca {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 80px;
+
 }
 
-.historia h1{
-  padding: 1em 0;
+/* SLIDER*/
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transition: transform 0.2s;
 }
 
-.aviso{
+.carousel .slider-container {
+  display: flex;
+  width: 100%;
+}
+
+.carousel .slide {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide img {
+  height: 520px;
+  width: 100%;
+}
+
+
+main .fraseEfeito{
+  padding: 3em 0;
+}
+
+main .section1-anuncio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+main .section1-anuncio div{
+  display: flex;
+  padding-bottom: 3em;
+  justify-content: space-between;
+
+}
+main .section1-anuncio div span{
+  width: 50%;
+}
+
+main .section1-anuncio .trailer span p{
+  text-align: left;
+}
+
+main .section1-anuncio div figure img{
+  width: 250px;
+  height: 200px;
+}
+
+main .section1-anuncio div span h1,main .section1-anuncio div span h2{
+  font-size: 48px;
+  color: white;
+  font-family: IM FELL French Canon SC;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   text-align: center;
-  padding: 2em 0;
 }
 
-.H-ini{
-  text-align: center;
-}
 
-.H-ini img{
-    padding: 4em 0em;
-    width: 26em;
-    height: 15em;
-}
 
-.rei{
-    text-align: center;
-}
 
-.rei img{
-    padding: 3em;
-}
 
-.text2a2{
-    text-align: center;
-}
 
-.text2a2 img{
-    width: 24em;
-    height: 14em;
-    padding:4em 0;
-}
 
-.H-fim{
-    text-align: center;
-    padding: 0 0 4em 0;
-}
-.bank{
-    text-align: center;
-}
 
-.bank img{
-    filter:saturate(60%);
-    width: 12em;
-    height: 10em;
-}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*                  Criadores                */
 
 
 .body-criadores{
-    background-color: #DC293E;
+  background-color: #DC293E;
 }
 
 .main-criadores{
-    background-color: #DC293E;
-    display: grid;
-    grid-template-areas:
-        ". team-c ."
-        "cri cri cri"
-        "ari wil dav";
+  background-color: #DC293E;
+  display: grid;
+  grid-template-areas:
+      ". team-c ."
+      "cri cri cri"
+      "ari wil dav";
 }
 
 .team-c{
-    text-align: center;
-    grid-area: team-c;
+  text-align: center;
+  grid-area: team-c;
 }
 
 .team-c img{
-    width: 18em;
-    height: 14em;
-    padding: 2em 0 4em 0;
+  width: 18em;
+  height: 14em;
+  padding: 2em 0 4em 0;
 }
 
 .cria-sec{
-    
-    padding: 2em;
+  
+  padding: 2em;
 }
 
 .cri{
-    text-align: center;
-    grid-area: cri;
+  text-align: center;
+  grid-area: cri;
 }
 .ari{grid-area: ari;
-    text-align: center;
-    padding: 1.5em;}
+  text-align: center;
+  padding: 1.5em;}
 
 .ari img{
-    height: 10em;
-    width: 10em;
-    padding-top:2em;
+  height: 10em;
+  width: 10em;
+  padding-top:2em;
 }
 
 .wil{grid-area: wil;
-    text-align: center;
-    padding: 1.8em;}
+  text-align: center;
+  padding: 1.8em;}
 
 .wil img{
-    height: 10em;
-    width: 10em;
-    padding-top:2em;
+  height: 10em;
+  width: 10em;
+  padding-top:2em;
 }
 
 .dav{grid-area: dav;
-    padding: 1.5em;
-    text-align: center;}
+  padding: 1.5em;
+  text-align: center;}
 
 .dav img{
-    height: 10em;
-    width: 10em;
-    padding-top:2em;
+  height: 10em;
+  width: 10em;
+  padding-top:2em;
 }
 
 .wil h2{
-    padding: 1em 0;
+  padding: 1em 0;
 }
 
 .ari h2{
-    padding: 1em 0;
+  padding: 1em 0;
 }
 
 .dav h2{
-    padding: 1em 0;
+  padding: 1em 0;
 }

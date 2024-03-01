@@ -1,97 +1,112 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hollow Knight</title>
-    <link rel="stylesheet"  href="src/hollow.css">
-    <link rel="icon" href="src/imagens/hollow 1.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Hollow Knight wiki</title>
+  <link href="src/hollow.css" rel="stylesheet" type="text/css"/>
+  <link href="src/imagens/logo.svg" rel="icon">
+  
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ol class="comeco">
-                <li><a href="index.html"><img class="hollow" src="src/imagens/hollow.png"></a></li>
-                <li><a href="historia.html">História</a></li>
-                 <li><a href="criadores.html">Criadores</a></li>
-            </ol>
-
-            <ol class="fim">
-                <li>
-                    <form action="respostas.html">
-                        <fieldset>
-                            <label for="search"></label>
-                            <input class="pesq" id="Pesquisar" type="search">
-                            <input class="lupa" type="image" src="src/imagens/lupa.png">
-                        </fieldset>
-                    </form>
-                </li>
-                <li><a href="https://www.teamcherry.com.au"><img class="team" src="src/imagens/team.png"></a></li>
-            </ol>
-            
-        </nav>
-    </header>
+  
+  <header>
+    <nav>
+      <div class="logos">
+        <h1 class="logo-site"><a href="index.html"><img src="src/imagens/logo.svg"></a></h1>
+        <h2><a href="#"><img src="src/imagens/hornet_vetor.svg"></a></h2>
+      </div>
+  
+      <div class="pesquisa">
+        <form class="pesquisar">
+          <input id="img_imput" 
+            type="image" placeholder="Pesquisar" src="src/imagens/searc_vetor.svg">
+          
+          <input 
+            id="pesq_input"
+            type="search" placeholder="Pesquisar">
+        </form>
+      </div>
+    </nav>
     
-    <main>
-        <section class="inicio">
-            <figure class="logo">
-              <img src="src/imagens/logo.png">
-            </figure>
-            <h2>"Abaixo da cidade moribunda de Dirtmouth jaz um reino antigo e arruinado. Muitos são atraídos para o subterrâneo em busca de riquezas, glórias ou respostas para antigos segredos..."</h2><br>
-            <p>Hollow Knight é um jogo de plataforma e ação lançado em 2017, desenvolvido pela Team Cherry. A história do jogo se passa em Hallownest, um reino subterrâneo habitado por insetos, e segue o protagonista, um cavaleiro sem nome, em sua jornada para explorar o reino e descobrir seus segredos</p>
-        </section>
 
-        <section class="definicao">
-            <p>Desenvolvido pela <b>Team Cherry</b> e inicialmente<br> lançado para Microsoft Windows em 24 de Fevereiro<br> de 2017, e posteriormente macOS e Linux. Foi <br>portado em 2018 para o Nintendo Switch, Xbox One<br> e Playstation 4 pela Shark Jump Studios.</p>
-            <figure>
-                <img src="src/imagens/jogo2.png">
-                <img src="src/imagens/hollowvoid.png">
-            </figure>
-        </section>
-<!--
-        <section class="logos">
-            <figure >
-                <img src="imagens/logos.png"> 
-            </figure>
-        </section>
--->         
+    <nav>
+      <ol>
+        <li>Pacotes <img class="vetor-seta" src="src/imagens/seta_vetor.svg"></li>
+        <li><a href="#">Historia</a></li>
+        <li><a href="criadores.html">Criadores</a></li>
+        <li>Download <img class="vetor-seta" src="src/imagens/seta_vetor.svg"></li>
+        <li><a href="#"><img src="src/imagens/team_cherry.svg"></a></li>
+      </ol>
+    </nav>
+    
+  </header>
+
+
+  <div class="destaque">
+    <div class="destaque-fixo">
+      <span>
+        <h1><img src="src/imagens/hollow-logo.svg"></h1>
+      </span>
+
+      <img class="teamcharry-logo-branca" src="src/imagens/teamcharry-logo.svg">
+
+    </div>
+
+    <div class="carousel">
+      <div class="slider-container">
+        <div class="slide"><img src="src/imagens/bload.svg"></div>
+        <div class="slide"><img src="src/imagens/dreams.svg"></div>
+        <div class="slide"><img src="src/imagens/grimm.svg"></div>
+        <div class="slide"><img src="src/imagens/god.svg"></div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <p class="fraseEfeito">"Abaixo da cidade moribunda de Dirtmouth jaz um reino antigo e arruinado. Muitos são atraídos para o subterrâneo em bussca de riquezas, glórias ou respostas para antigos segredos."</p>
+
+    <section class="section1-anuncio">
+      <div>
+        <span>
+          <h1>Desbrave as Profundezas de<br> um Reino Esquecido</h1>
+          <p>Abaixo da cidade desvanecente de Dirtmouth repousa um vasto e antigo reino. Muitos são atraídos da superfície, em busca de riquezas, glóriasou respostas para antigos segredos. Como o enigmático Cavavleiro, você percorrerá as Profundezas, desvendará seus mistérios e conquistará seus males.</p>  
+        </span>
+
+        <figure>
+          <img src="src/imagens/silksongprint.jpg" alt="Dois prints do jogo.">
+        </figure>
+      </div>
+
+      <div class="trailer">
+        <figure>
+          <img src="src/imagens/silksongprint.jpg" alt="Dois prints do jogo.">
+        </figure>
+
         
+        
+        <span>
+          <h2>Utilize suas Habilidades e<br> Reflexos para Sobreviver</h2>
+          <p>Hollow Knight é um desafiador jogo de ação e aventura em 2D. Você explorará cavernas sinuosas, enfrentará criaturas comrrompidas e escapaá de intricadas marmadilhas, tudo para resolver um antigo mistério há muito tempo oculto.</p>
+          <p>- Explore mundos vastos e interconectados.</p>
+          <p>- Encontre uma coleção bizarra de amigos e inimigos.</p> 
+          <p>- Evolua com novas habilidades e capacidades poderosas.</p> 
+        </span>
+      </div>
 
+        
+      </div>
 
-        <section class="sobre">
-            <p>O Cavaleiro pode explorar o vasto mundo interligado de Hallownest usando várias técnicas de movimento e combate. No estilo clássico de Metroidvania, há áreas do mundo que o Cavaleiro não pode acessar sem obter certas Habilidades ou Itens. Mapas de cada área podem ser comprados de um comerciante geralmente escondido em algum lugar daquela área, o Cavaleiro também pode comprar melhorias para colocar marcadores no mapa ou para possibilitar que o mapa se revele à medida que for explorado. Várias áreas contém um 'chefe' que o Cavaleiro deve derrotar para continuar, e também vários mini-chefes que largam recompensas ou melhorias.
-                Inimigos derrotados derrubam Geo, uma moeda que o Cavaleiro pode usar para comprar itens dos comerciantes. Se o Cavaleiro for morto, será revivido no último lugar em que descansou e perderá todo seu Geo. Ele deve retornar ao lugar em que morreu e derrotar sua Sombra para recuperar o Geo perdido. O Cavaleiro também ganha ALMA golpeando inimigos, que pode ser usada para recuperar pontos de vida ou ativar habilidades especiais. Vida também pode ser recuperada nas Fontes Termais, que ficam localizadas pelo mundo, ou descansando em um Banco.</p>
-        </section>
-
-        <section>
-            <figure class="imgjogo">
-                <img src="src/imagens/print1.png">
-                <img src="src/imagens/print2.jpg">
-            </figure>
-        </section>
-
-        <section class="sobre">
-            <h2>Hollow Knight: Silksong</h2>
-            <p>Hollow Knight Sinksong foi anunciado pela primeira vez no Kickstarter em 19 de Novembro de 2014, buscando a soma de AU$ 35 mil até 19 de Dezembro. O jogo ultrapassou esse objetivo, levantando mais de AU$ 58 mil. Durante os dois anos desde o lançamento inicial, 4 pacotes de conteúdos adicionais grátis e várias atualizações foram adicionadas. Alguns conteúdos dos apoiadores que não foram adicionados, assim como o objetivo de um 2º personagem jogável serão cumpridos na continuação, Hollow Knight: Silksong.</p>
-        </section>
-
-        <section class="silksong">
-            <figure><img src="src/imagens/silksong.png"></figure>
-        </section>
-    </main>
-
-    <footer>
-        <ol class="footer-ini">
-            <li><img class="steam" src="src/imagens/steam.png"></li>
-            <li><a href="https://www.teamcherry.com.au"><img class="team2" src="src/imagens/team.png"></a></li>
-        </ol>
-        <p>Hollow Knight is © Copyright 2023 Team Cherry.  -  <a href="https://hollowknight.fandom.com/pt/wiki/Hollow_Knight_Wiki"> <img src="src/imagens/sanguevit.png"> Wiki de Hollow Knight.</a></p>
-        <ol class="footer-fim">
-            <li><img class="facebook" src="src/imagens/facebook.png"></li>
-            <li><img class="youtube" src="src/imagens/youtube.png"></li>
-            <li><img class="twitter" src="src/imagens/twitter.png "></li>
-        </ol>
-    </footer>
-    
+    </section>
+    <div class="destaque2">
+      <h1>Arte Evocativa<br> Desenhada à Mão</h1>
+      <p>O mundo de Hollow Knight é trago à vida em detalhes<br> vívidos e atmosféficos, suas cavernas repletas de criaturas<br> bizarras e aterrorizantes, cada uma animada à mão em<br> um estilo 2D tradicional!</p>
+    </div>
+  </main>
+  
 </body>
+
 </html>
+<script src="src/knight.js"></script>
